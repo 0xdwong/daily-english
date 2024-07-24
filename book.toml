@@ -1,0 +1,6 @@
+[book]
+authors = ["0xdwong"]
+language = "zh-cn"
+multilingual = false
+src = "src"
+title = "daily-english"
