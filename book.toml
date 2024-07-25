@@ -4,3 +4,6 @@ language = "zh-cn"
 multilingual = false
 src = "src"
 title = "daily-english"
+
+[output.html]
+additional-css = ["https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"]
