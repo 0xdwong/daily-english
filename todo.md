@@ -1,3 +1,3 @@
-- [ ] script
+- [x] script
 - [ ] action
 - [ ] speaker icon
