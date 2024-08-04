@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Daily words</title>
     <link>https://daily-english.dwong.top</link>
-    <description>Daily words to improve your English</description>
-	<language>zh-CN</language>
+    <description>每日5分钟，轻松掌握5个英语单词！我们不仅提供词义解释和例句，还将这些单词编织成引人入胜的短篇故事，并配以专属插图。这种视听结合的多感官体验让英语学习既高效又有趣。无论你是初学者还是想扩大词汇量的语言爱好者，都能在这里找到乐趣。订阅我们，让每天的碎片时间绽放语言魅力！</description>
+    <language>zh-CN</language>
     <copyright>2024 @daily words</copyright>
     <pubDate>Mon, 22 Lul 2024 00:00:00 GMT</pubDate>
-    
-    <itunes:author>anonymity</itunes:author>
+    <itunes:author>dwong</itunes:author>
     <itunes:subtitle>Daily words</itunes:subtitle>
     <itunes:summary>Daily words to improve your English</itunes:summary>
     <itunes:image href="https://daily-english.dwong.top/images/daily-words.png"/>
@@ -17,11 +16,27 @@
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:owner>
-      <itunes:name>anonymity</itunes:name>
+      <itunes:name>dwong</itunes:name>
       <itunes:email>admin@daily-words.com</itunes:email>
     </itunes:owner>
     <itunes:type>episodic</itunes:type>
-    
+    <item>
+      <title>2024-08-04</title>
+      <link>https://daily-english.dwong.top/2024-08-04.html</link>
+      <description/>
+      <enclosure url="https://daily-english.dwong.top/audios/story/2024-08-04-english.mp3" length="611520" type="audio/mpeg"/>
+      <guid>https://daily-english.dwong.top/audios/story/2024-08-04-english.mp3</guid>
+      <pubDate>Sun, 04 Aug 2024 13:04:41 +0800</pubDate>
+      <itunes:author>dwong</itunes:author>
+      <itunes:subtitle>2024-08-04</itunes:subtitle>
+      <itunes:summary/>
+      <itunes:image href="https://daily-english.dwong.top/images/daily-words.png"/>
+      <itunes:duration>00:05:00</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>2024-08-04</title>
       <link>https://daily-english.dwong.top/2024-08-04.html</link>
@@ -29,18 +44,16 @@
       <enclosure url="https://daily-english.dwong.top/audios/story/2024-08-04-english.mp3" length="611520 " type="audio/mpeg"/>
       <guid>https://daily-english.dwong.top/audios/story/2024-08-04-english.mp3</guid>
       <pubDate>Sun, 04 Aug 2024 08:00:00 +0000</pubDate>
-
-      <itunes:author>anonymity</itunes:author>
+      <itunes:author>dwong</itunes:author>
       <itunes:subtitle>2024-08-04</itunes:subtitle>
       <itunes:summary>prominent seduce entrance vulnerable rigid</itunes:summary>
       <itunes:image href="https://daily-english.dwong.top/images/daily-words.png"/>
       <itunes:duration>00:05:00</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:season>1</itunes:season>
-      <itunes:episode>1</itunes:episode>
+      <itunes:episode>2</itunes:episode>
       <itunes:episodeType>full</itunes:episodeType>
     </item>
-
     <item>
       <title>2024-08-03</title>
       <link>https://daily-english.dwong.top/2024-08-03.html</link>
@@ -48,8 +61,7 @@
       <enclosure url="https://daily-english.dwong.top/audios/story/2024-08-03-english.mp3" length="622560 " type="audio/mpeg"/>
       <guid>https://daily-english.dwong.top/audios/story/2024-08-03-english.mp3</guid>
       <pubDate>Sat, 03 Aug 2024 08:00:00 +0000</pubDate>
-
-      <itunes:author>anonymity</itunes:author>
+      <itunes:author>dwong</itunes:author>
       <itunes:subtitle>2024-08-03</itunes:subtitle>
       <itunes:summary>prominent seduce entrance vulnerable rigid</itunes:summary>
       <itunes:image href="https://daily-english.dwong.top/images/daily-words.png"/>
