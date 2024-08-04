@@ -12,6 +12,10 @@ RESOURCE_DIR=""
 # 当前日期
 current_date=$(date +"%Y-%m-%d")
 
+# website url
+WEBSITE_BASE_URL=""
+
+
 # 检查脚本目录是否存在
 if [ ! -d "$SCRIPT_DIR" ]; then
   echo "脚本目录不存在: $SCRIPT_DIR"
@@ -56,12 +60,11 @@ mv summary.tmp "$summary_file"
 FEED_FILE_PATH="$RESOURCE_DIR/src/feed.xml"
 MEIDA_FILE_PATH="$RESOURCE_DIR/src/audios/story/$current_date-english.mp3"
 CONTENT_FILE_PATH="$RESOURCE_DIR/src/$current_date.md"
-
 DESCRIPTION=$(head -n 1 "$CONTENT_FILE_PATH")
 
 # 进入脚本文件夹
 cd "$SCRIPT_DIR"
-npx ts-node scripts/feed.ts "$FEED_FILE_PATH" "$MEIDA_FILE_PATH" "$DESCRIPTION" "$current_date"
+npx ts-node scripts/feed.ts "$FEED_FILE_PATH" "$MEIDA_FILE_PATH" "$DESCRIPTION" "$current_date" "$WEBSITE_BASE_URL"
 
 
 cd "$RESOURCE_DIR"
