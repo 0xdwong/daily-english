@@ -1,19 +1,19 @@
 #!/bin/bash
 
 # ssh key 文件名
-SSH_KEY=""
+SSH_KEY="dwong"
 
 # 脚本所在根目录
-SCRIPT_DIR=""
+SCRIPT_DIR="/home/ubuntu/code/ai-words"
 
 # 资源目录变量
-RESOURCE_DIR=""
+RESOURCE_DIR="/home/ubuntu/code/daily-english"
 
 # 当前日期
 current_date=$(date +"%Y-%m-%d")
 
 # website url
-WEBSITE_BASE_URL=""
+WEBSITE_BASE_URL="https://daily-english.dwong.top"
 
 
 # 检查脚本目录是否存在
