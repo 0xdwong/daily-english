@@ -1,4 +1,5 @@
 #!/bin/bash
+export PATH="$PATH:/home/ubuntu/.nvm/versions/node/v18.20.3/bin"
 
 # ssh key 文件名
 SSH_KEY="dwong"
