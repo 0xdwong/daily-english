@@ -1,5 +1,6 @@
 #!/bin/bash
 export PATH="$PATH:/home/ubuntu/.nvm/versions/node/v18.20.3/bin"
+export PATH="$PATH:/home/ubuntu/.cargo/bin/"
 
 # ssh key 文件名
 SSH_KEY="dwong"
@@ -58,7 +59,7 @@ mv summary.tmp "$summary_file"
 
 
 # feed
-FEED_FILE_PATH="$RESOURCE_DIR/src/feed.xml"
+FEED_FILE_PATH="$RESOURCE_DIR/feed.xml"
 MEIDA_FILE_PATH="$RESOURCE_DIR/src/audios/story/$current_date-english.mp3"
 CONTENT_FILE_PATH="$RESOURCE_DIR/src/$current_date.md"
 DESCRIPTION=$(head -n 1 "$CONTENT_FILE_PATH")
