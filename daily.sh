@@ -32,8 +32,12 @@ fi
 
 # 执行脚本
 cd "$SCRIPT_DIR"
-npx ts-node src/index.ts
+output=$(npx ts-node src/index.ts)
 
+if [ -z "$output" ]; then
+  echo "内容生成失败"
+  exit 1
+fi
 
 # 把文件复制到指定的文件夹
 mv "$current_date.md" "$RESOURCE_DIR/src"
