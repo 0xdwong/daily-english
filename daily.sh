@@ -32,11 +32,15 @@ fi
 
 # 执行脚本
 cd "$SCRIPT_DIR"
-output=$(npx ts-node src/index.ts)
+npx ts-node src/index.ts
 
-if [ -z "$output" ]; then
-  echo "内容生成失败"
-  exit 1
+# 获取 ts-node 执行后的退出码
+exit_code=$?
+
+# 根据返回码执行其他逻辑
+if [ $exit_code -ne 0 ]; then
+    echo "脚本执行失败，返回码：$exit_code"
+    exit 1
 fi
 
 # 把文件复制到指定的文件夹
