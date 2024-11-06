@@ -45,11 +45,6 @@ fi
 
 # 把文件复制到指定的文件夹
 mv "$current_date.md" "$RESOURCE_DIR/src"
-mv audios/english.mp3 "$RESOURCE_DIR/src/audios/story/$current_date-english.mp3"
-mv audios/chinese.mp3 "$RESOURCE_DIR/src/audios/story/$current_date-chinese.mp3"
-mv audios/* "$RESOURCE_DIR/src/audios/words"
-mv images/* "$RESOURCE_DIR/src/images"
-
 
 # 进入资源文件夹
 cd "$RESOURCE_DIR"
@@ -68,13 +63,10 @@ mv summary.tmp "$summary_file"
 
 # feed
 FEED_FILE_PATH="$RESOURCE_DIR/feed.xml"
-MEIDA_FILE_PATH="$RESOURCE_DIR/src/audios/story/$current_date-english.mp3"
-CONTENT_FILE_PATH="$RESOURCE_DIR/src/$current_date.md"
-DESCRIPTION=$(head -n 1 "$CONTENT_FILE_PATH")
 
 # 进入脚本文件夹
 cd "$SCRIPT_DIR"
-npx ts-node scripts/feed.ts "$FEED_FILE_PATH" "$MEIDA_FILE_PATH" "$DESCRIPTION" "$current_date" "$WEBSITE_BASE_URL"
+npx ts-node scripts/feed.ts "$FEED_FILE_PATH" "$current_date" "$WEBSITE_BASE_URL"
 
 
 cd "$RESOURCE_DIR"
